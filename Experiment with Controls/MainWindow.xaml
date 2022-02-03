@@ -28,7 +28,7 @@
         <RadioButton Content="4" HorizontalAlignment="Left" Margin="200,52,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
         <RadioButton Content="5" HorizontalAlignment="Left" Margin="230,52,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
         <RadioButton Content="6" HorizontalAlignment="Left" Margin="260,52,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
-        <ListBox x:Name="myListBox" Grid.Row="1" Margin="10,10,10,10">
+        <ListBox x:Name="myListBox" Grid.Row="1" Margin="10,10,10,10" SelectionChanged="myListBox_SelectionChanged">
             <ListBoxItem Content="1"/>
             <ListBoxItem Content="2"/>
             <ListBoxItem Content="3"/>

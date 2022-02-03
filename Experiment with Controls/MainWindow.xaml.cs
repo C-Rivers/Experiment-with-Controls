@@ -52,5 +52,13 @@ namespace Experiment_with_Controls
                 number.Text = radioButton.Content.ToString();
             }
         }
+
+        private void myListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if(myListBox.SelectedItem is ListBoxItem listBoxItem)
+            {
+                number.Text=listBoxItem.Content.ToString();
+            }
+        }
     }
 }
